@@ -3,75 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ScanNlearn</title>
+    <link rel="icon" href="bar-code.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        body {
-            background-image: url(https://c4.wallpaperflare.com/wallpaper/1002/609/152/blue-blur-abstract-simple-background-wallpaper-preview.jpg);
-            background-size: 100% 100%;
-            background-attachment: fixed;
-        }
-        /*This is the box style of the navbar*/
-        nav a {
-            text-decoration: none;
-        display: block;
-        padding: 15px 25px;
-        text-align: center;
-        background-color: rgb(189, 185, 185);
-        color: #464141;
-        margin: 0;
-        font-family: sans-serif;
-        }
-        nav a:hover{
-        background-color: #777777;
-        color: #ffffff;
-        }
-        nav {
-        display: flex;
-        flex-wrap: wrap; 
-      }
+
       /*This is the color style of the headlines*/
       h1{
-        color: rgb(57, 62, 70);
+        color: rgb(195, 8, 63);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
       h2{
-        color: #777777;
+        color: rgb(78, 78, 80);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         p{
-            color: rgb(238, 238, 238);
+            color: #000000;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
+
     </style>
 </head>
-    <body>
-    <header>
-        <nav>
-            <a href="">HOME</a>
-            <a href="">ABOUT</a>
-            <a href="">WORK</a>
-            <a href="">RESUME</a>
-            <a href="">CONTACT</a>
+<body>
+    <header class="header">
+        <img src="bar-code.png" alt="" class="logo-image">
+        <a href="#" class="logo">ScanNLearn</a>
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#work">WORK</a>
+            <a href="#resume">RESUME</a>
+            <a href="#contact">CONTACT</a>
         </nav>
     </header>
-    <section>
+    <div class="body-page">
+        <main>
+        <section id="home">
         <h1>Home</h1>
+        <p>Welcome to ScanNlearn – Your Ultimate Product Scanner!
+
+            Unlock the power of informed choices with ScanNlearn, your go-to destination for scanning barcode products and discovering detailed information about their ingredients. Our cutting-edge platform provides you with an in-depth analysis of each product, offering insights into the components, their benefits, and potential drawbacks.</p>
     </section>
-    <section>
+    <section id="about">
         <h1>About</h1>
+        <h3>Navigating Transparency in Every Barcode:</h3>
+        <p>Welcome to ScanNlearn, where transparency meets technology! We are on a mission to revolutionize the way you engage with your everyday products. At ScanNlearn, we believe in empowering consumers with knowledge, ensuring that you make choices aligned with your health and lifestyle goals.</p>
+        <h3>Our Vision:</h3>
+        <p>At the heart of ScanNlearn is a vision for a world where consumers are not just shoppers but informed decision-makers. We envision a future where everyone has easy access to detailed information about the products they use, fostering a culture of transparency, wellness, and conscious living.</p>
+        <h3>How It All Began:</h3>
+        <p>ScanNlearn was born out of a collective desire to bridge the gap between consumers and the products they bring into their lives. Our team of passionate individuals, including tech enthusiasts, nutritionists, and health advocates, came together with a shared goal: to create a platform that transforms the way people interact with their everyday purchases.</p>
+        <h3>Join the ScanNlearn Community:</h3>
+        <p>Become part of a community that values informed choices. ScanNlearn is more than just a platform; it's a movement towards a healthier, more conscious lifestyle. Together, let's redefine the way we engage with the products that shape our daily lives.<br>Embark on a journey of discovery, transparency, and wellness with ScanNlearn. Your choices matter, and at ScanNlearn, we're here to make sure they're well-informed.</p>
     </section>
-    <section>
+    <section id="work">
         <h1>Work</h1>
+        <ul type="disc">
+            <li>Barcode Scanning Magic:</li>
+            <p>Easily scan the barcode of any product, and let ScanNlearn do the rest. Our advanced technology swiftly decodes the information, providing you with a comprehensive breakdown of the ingredients list.</p>
+            <li>Ingredient Insights:</li>
+            <p>Dive deep into the ingredients present in your favorite products. ScanNlearn not only identifies the components but also offers detailed explanations about each ingredient, allowing you to make informed decisions about what you bring into your life.</p>
+            <li>Benefits Unveiled:</li>
+            <p>Discover the positive aspects of each ingredient. From nutritional value to potential health benefits, ScanNlearn empowers you with knowledge about how these components can contribute to your well-being.</p>
+            <li>Consider the Cons:</li>
+            <p>Transparency is our priority. ScanNlearn doesn't just highlight the positives – we also shed light on any potential drawbacks or cons associated with the ingredients. Make choices aligned with your preferences and health goals.</p>
+            <li>Personalized Recommendations:</li>
+            <p>Tailored suggestions based on your preferences and dietary needs. ScanNlearn considers your unique requirements, providing recommendations that align with your lifestyle.</p>
+            <li>User-Friendly Interface:</li>
+            <p>Our intuitive interface ensures a seamless experience. Whether you're a health-conscious shopper or someone with specific dietary restrictions, ScanNlearn is designed to cater to your needs effortlessly.</p>
+          </ul>
     </section>
-    <section>
+    <section id="resume">
         <h1>Resume</h1>
+        <p>ScanNLearn - Empowering Informed ChoicesAs dedicated contributors to the intersection of technology and wellness, we have played a pivotal role in the creation and development of ScanNLearn, a revolutionary platform that places transparency and knowledge at the forefront of consumer decision-making. At ScanNLearn, we leverage cutting-edge technology to enable users to effortlessly scan product barcodes, unveiling comprehensive insights into ingredient details, benefits, and potential drawbacks.Our involvement in this transformative initiative encompasses diverse responsibilities, from conceptualizing the platform's vision to collaborating with a multidisciplinary team of tech enthusiasts, nutritionists, and health advocates. Together, we strive to redefine the way individuals engage with their everyday products, fostering a culture of conscious living.ScanNLearn stands as a testament to our commitment to innovation, user-centric design, and a passion for empowering individuals to make informed choices about the products they bring into their lives. Through personalized recommendations, detailed ingredient analysis, and a user-friendly interface, ScanNLearn aims to be the go-to destination for those seeking transparency in their consumer journey.Join us in this venture towards a healthier, more informed future with ScanNLearn, where your choices matter, and knowledge is the key to a conscious lifestyle.</p>
     </section>
     <section id="contact">
-        <h1>Contact</h1>
-            <h2>Contact Me</h2>
+        <h1>Contact us</h1>
             <div>
               <p> Borj Cedria, Tunisia</p>
               <p> Phone: +216 52425471</p>
               <p> Email: manazizdaagi@gmail.com</p>
             </div><br>
-            <p>Let's get in touch. Send me a message:</p>
+            <p>Let's get in touch. Send us a message:</p>
             <form>
                 <p><input type="text" placeholder="Name" name="Name"></p>
                 <p><input type="text" placeholder="Email" name="Email"></p>
@@ -84,9 +98,21 @@
                 </p>
               </form>
     </section>
-
-    <footer>
-
+</main>
+</div>
+    <footer class="footer-content">
+        <h3>ScanNLearn</h3>
+        <p>ScanNLearn: Scan barcodes for instant insights on product ingredients, benefits, and drawbacks – your key to informed choices.</p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+         </ul>
+         <div class="footer-bottom">
+            <p>copyright &copy;2021 <a href="#">ScanNLearn</a>  </p>
+         </div>
     </footer>
     </body>
 </html>
