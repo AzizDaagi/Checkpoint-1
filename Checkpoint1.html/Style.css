@@ -16,24 +16,27 @@ h1{
 }
 h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: teal;
+    color: #ddb78a;
     padding-top: 20px;
 }
 li{
     font-size: 22px;
     padding-top: 20px;
+    font-weight: 700;
+    color: #ddb78a;
 }
 p{
     padding-top: 10px;
-    line-height: 1.7;
+    line-height: 2;
+    font-weight: 600;
 }
 body {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: center;
     flex-direction: column;
     min-height: 100vh;
-    background: #D7D7D7;
+    background: #43766C;
 }
 .header{
     position: fixed;
@@ -41,11 +44,13 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: #D7D7D7;
+    background: #67b4a5;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    border: 2px solid #F8FAE5;
+
 }
 .logo{
     font-size: 32px;
@@ -76,11 +81,10 @@ body {
     width: 100%;
 }
 .body-page{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 100px;
-    padding-right: 500px;
-    flex: 1;
+justify-content: center;
+align-items: center;
+margin: 100px;
+margin-right: 300px;
 }
 .logo-image{
     width: 3%;
